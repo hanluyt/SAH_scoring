@@ -1,0 +1,251 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0062)http://portal.stats.ox.ac.uk/userdata/proteins/i-Patch/home.pl -->
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>脑卒中预后预测</title>
+<!-- <link rev="made" href="mailto:Note:邮件地址">
+<meta name="copyright" content="Note:版权信息">
+<meta name="description" content="Note:内容描述">
+<meta name="keywords" content="Note:关键词"> -->
+<link rel="stylesheet" type="text/css" href="./sample_v1_files/medeller.css">
+<style type="text/css">
+<!--/* <![CDATA[ */
+
+            body
+            {
+              padding:20px;
+              margin:0px;
+            }
+
+/* ]]> */-->
+</style>
+<script type="text/javascript">//<![CDATA[
+
+function block(element, value)
+{
+  v = value ? 'block' : 'none';
+  if (document.layers)
+  {
+    document.layers[element].display = v;
+  }
+  else if (document.all)
+  {
+    document.all[element].style.display = v;
+  }
+  else if (document.getElementById)
+  {
+    document.getElementById(element).style.display = v;
+  }
+}
+
+function inline(element, value)
+{ 
+  v = value ? 'inline' : 'none';
+  if (document.layers)
+  {
+    document.layers[element].display = v;
+  }
+  else if (document.all)
+  {
+    document.all[element].style.display = v;
+  }
+  else if (document.getElementById)
+  {
+    document.getElementById(element).style.display = v;
+  }
+}
+   
+function displayResult()
+{
+  //Todo: 调用python模型，返回值，写出到结果
+  document.getElementById("result_output").innerHTML = "结果示范";
+}
+//]]></script>
+
+</head>
+
+<body onload="">
+
+    
+    <div align="center"><table><tbody><tr><td> <!-- begin CENTER -->
+    
+    
+<h1><a href="/*Note:该网页链接*/"><span class="headingstart">脑</span><span class="headingend">卒中预后预测</span></a> <span class="minititle">脑卒中预后预测</span></h1>
+
+    
+    
+    <div class="mainmargin"> <!-- begin MAINMARGIN -->
+    
+    <p>&nbsp;</p>
+    
+    <p class="usagepolicy">仅供学术使用<br>&nbsp;</p>
+    
+    <form method="post" action="/*Note:任务提交页面*/" enctype="multipart/form-data" name="inputForm">
+    <div class="about">
+    <h3><span class="headingstart">关</span><span class="headingend">于：</span></h3>
+	<p>/*Note:内容描述*/<br><br>/*Note:paper引用*/</p><br>
+<a href="/*Note:paper链接*/"><i>/*Note:引用文章名*/</i></a>
+<br>
+    </div>
+<h2>运行该程序的步骤:</h2>
+    <div class="inputgroup" id="sequenceinput">
+      <div class="inputnumber">
+        1
+      </div>
+      <h3><span class="headingstart">输</span><span class="headingend">入待预测信息 [必须]:</span></h3>
+      <div class="sidemargin">
+        <div class="sidemargin">
+          Gender_1<br />
+          <label><input type="radio" name="gender_1_radio" value="0" checked="checked"/>0</label>
+          <label><input type="radio" name="gender_1_radio" value="1"/>1</label>
+        </div>
+        <div class="sidemargin">
+          Hypertension_1<br />
+          <label><input type="radio" name="hypertension_1_radio" value="0" checked="checked"/>0</label>
+          <label><input type="radio" name="hypertension_1_radio" value="1"/>1</label>
+        </div>
+        <div class="sidemargin">
+          Coronary heart disease_1<br />
+          <label><input type="radio" name="coronary_heart_disease_1_radio" value="0" checked="checked"/>0</label>
+          <label><input type="radio" name="coronary_heart_disease_1_radio" value="1"/>1</label>
+        </div>
+        <div class="sidemargin">
+          Diabetes_1<br />
+          <label><input type="radio" name="diabetes_1_radio" value="0" checked="checked"/>0</label>
+          <label><input type="radio" name="diabetes_1_radio" value="1"/>1</label>
+        </div>
+        <div class="sidemargin">
+          Smoking_1<br />
+          <label><input type="radio" name="smoking_1_radio" value="0" checked="checked"/>0</label>
+          <label><input type="radio" name="smoking_1_radio" value="1"/>1</label>
+        </div>
+        <div class="sidemargin">
+          Pneumonia_1<br />
+          <label><input type="radio" name="pneumonia_1_radio" value="0" checked="checked"/>0</label>
+          <label><input type="radio" name="pneumonia_1_radio" value="1"/>1</label>
+        </div>
+        <div class="sidemargin">
+          Hydrocephalus_1<br />
+          <label><input type="radio" name="hydrocephalus_1_radio" value="0" checked="checked"/>0</label>
+          <label><input type="radio" name="hydrocephalus_1_radio" value="1"/>1</label>
+        </div>
+        <div class="sidemargin">
+          Location_2<br />
+          <label><input type="radio" name="location_2_radio" value="0" checked="checked"/>0</label>
+          <label><input type="radio" name="location_2_radio" value="1"/>1</label>
+        </div>
+        <div class="sidemargin">
+          Location_3<br />
+          <label><input type="radio" name="location_3_radio" value="0" checked="checked"/>0</label>
+          <label><input type="radio" name="location_3_radio" value="1"/>1</label>
+        </div>
+        <div class="sidemargin">
+          Location_4<br />
+          <label><input type="radio" name="location_4_radio" value="0" checked="checked"/>0</label>
+          <label><input type="radio" name="location_4_radio" value="1"/>1</label>
+        </div>
+        <div class="sidemargin">
+          Location_5<br />
+          <label><input type="radio" name="location_5_radio" value="0" checked="checked"/>0</label>
+          <label><input type="radio" name="location_5_radio" value="1"/>1</label>
+        </div>
+        <div class="sidemargin">
+          Location_6<br />
+          <label><input type="radio" name="location_6_radio" value="0" checked="checked"/>0</label>
+          <label><input type="radio" name="location_6_radio" value="1"/>1</label>
+        </div>
+        <div class="sidemargin">
+          Bifurcation configuration_1<br />
+          <label><input type="radio" name="bifurcation_configuration_1_radio" value="0" checked="checked"/>0</label>
+          <label><input type="radio" name="bifurcation_configuration_1_radio" value="1"/>1</label>
+        </div>
+        <div class="sidemargin">
+          Irregular shape_1<br />
+          <label><input type="radio" name="irregular_shape_1_radio" value="0" checked="checked"/>0</label>
+          <label><input type="radio" name="irregular_shape_1_radio" value="1"/>1</label>
+        </div>
+        <div class="sidemargin">
+          Multiple aneurysms_1<br />
+          <label><input type="radio" name="multiple_aneurysms_1_radio" value="0" checked="checked"/>0</label>
+          <label><input type="radio" name="multiple_aneurysms_1_radio" value="1"/>1</label>
+        </div>
+        <div class="sidemargin">
+          WFNS grade<br />
+          <label><input type="radio" name="wfns_grade_radio" value="1" checked="checked"/>1</label>
+          <label><input type="radio" name="wfns_grade_radio" value="2"/>2</label>
+          <label><input type="radio" name="wfns_grade_radio" value="3"/>3</label>
+          <label><input type="radio" name="wfns_grade_radio" value="4"/>4</label>
+          <label><input type="radio" name="wfns_grade_radio" value="5"/>5</label>
+        </div>
+        <div class="sidemargin">
+          Modified Fisher grade<br />
+          <label><input type="radio" name="modified_fisher_grade_radio" value="0" checked="checked"/>0</label>
+          <label><input type="radio" name="modified_fisher_grade_radio" value="1"/>1</label>
+          <label><input type="radio" name="modified_fisher_grade_radio" value="2"/>2</label>
+          <label><input type="radio" name="modified_fisher_grade_radio" value="3"/>3</label>
+          <label><input type="radio" name="modified_fisher_grade_radio" value="4"/>4</label>
+        </div>
+        <div class="sidemargin">
+          Hunt-Hess grade<br />
+          <label><input type="radio" name="hunt-hess_grade_radio" value="1" checked="checked"/>1</label>
+          <label><input type="radio" name="hunt-hess_grade_radio" value="2"/>2</label>
+          <label><input type="radio" name="hunt-hess_grade_radio" value="3"/>3</label>
+          <label><input type="radio" name="hunt-hess_grade_radio" value="4"/>4</label>
+          <label><input type="radio" name="hunt-hess_grade_radio" value="5"/>5</label>
+        </div>
+        <div class="sidemargin">
+          Aneurysm size<br />
+          <label><input type="number" step=0.01 name="aneurysm_size_real" value=0 /></label>
+        </div>
+        <div class="sidemargin">
+          Neck size<br />
+          <label><input type="number" step=0.01 name="neck_size_real" value=0 /></label>
+        </div>
+        <div class="sidemargin">
+          Dome to neck ratio<br />
+          <label><input type="number" step=0.01 name="dome_to_neck_ratio_real" value=0 /></label>
+        </div>
+        <div class="sidemargin">
+          Age<br />
+          <label><input type="number" name="age_int" value=0 /></label>
+        </div>
+      </div>
+      <span class="clear"></span>
+    </div>
+    
+    
+    <div class="inputgroup">
+      <div class="inputnumber">
+        2
+      </div>
+      <h3><span class="headingstart">提</span><span class="headingend">交:</span></h3>
+      <div class="sidemargin">
+        <p>点击提交运行程序</p>
+        <!-- <input type="submit" name="submit" value="提交"> -->
+        <input type="button" name="submit" value="提交" onclick="displayResult()">
+      </div>
+      <span class="clear"></span>
+    </div>
+    
+    </form>
+    
+    <div class="inputgroup">
+      <div class="inputnumber">
+        3  
+      </div>
+      <h3><span class="headingstart">结</span><span class="headingend">果:</span></h3>
+      <div class="sidemargin">
+      <p>预测结果为</p>  
+      <label><p id="result_output">空</p></label>
+      </div>
+      <span class="clear"></span>
+    </div>
+    <p>&nbsp;</p>
+    
+    </div> <!-- end MAINMARGIN -->
+    
+    <div class="footer">
+    <a target="_blank" href="Note:组链接">Note:组名</a> &nbsp; | &nbsp;  © Note:版权
+    </div>
+    
+    </td></tr></tbody></table></div> <!-- end CENTER -->

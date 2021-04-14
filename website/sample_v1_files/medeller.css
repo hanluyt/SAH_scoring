@@ -1,0 +1,324 @@
+body, table, h1, h2, h3, h4, h5, h6
+{
+  font-family:Arial,Helvetica,sans-serif;
+}
+
+body
+{
+  color:#000000;
+  background-color:#FFFFFF;
+  margin:0px;
+  padding:0px;
+}
+
+table
+{
+  margin:0px;
+  padding:0px;
+}
+
+td, th
+{
+  vertical-align:top;
+}
+
+a
+{
+  color:#0099DD;
+  text-decoration:none;
+}
+a:hover
+{
+  color:#0000FF;
+}
+a:active
+{
+  color:#0000FF;
+}
+a:visited
+{
+  color:#006699;
+}
+
+p
+{
+  margin:2px;
+  padding:2px;
+}
+
+h1, h2, h3, h4, h5, h6
+{
+  font-weight:bold;
+  font-style:normal;
+  text-decoration:none;
+  padding:0px;
+  margin:2px 0px 2px 0px;
+}
+
+h1
+{
+  margin:5px 0px 5px 0px;
+  border-bottom:2px solid #4444FF;
+}
+
+h1 a, h1 a:visited, h1 a:active
+{
+  color:#000000;
+  text-decoration:none;
+}
+
+h1 a:hover
+{
+  color:#0000FF;
+}
+
+h2
+{
+  margin:2px 0px 2px 0px;
+}
+
+h3
+{
+  margin:2px 0px 2px 0px;
+}
+
+/*
+h4
+{
+  font-weight:normal;
+  text-decoration:underline;
+}
+*/
+
+form
+{
+  margin:0px;
+  padding:0px;
+}
+
+.speciesname
+{
+  font-style:italic;
+}
+
+.headingstart
+{
+  color:#4444FF;
+}
+.headingend, .minititle
+{
+  color:#8888FF;
+}
+
+.minititle
+{
+  font-size:0.5em;
+  font-weight:normal;
+}
+
+.switchapp
+{
+  text-align:right;
+  font-family:Courier,mono;
+  font-size:0.5em;
+  font-variant:small-caps;
+}
+.switchapp a
+{
+  color:#4444FF;
+}
+.switchapp a:hover
+{
+  color:#0099DD;
+}
+
+.usagepolicy
+{
+  text-align:center;
+  font-size:0.9em;
+  font-style:normal;
+  font-weight:bold;
+  font-variant:small-caps;
+  color:#4444FF;
+}
+
+.indent
+{
+  margin-left:10px;
+}
+
+.note
+{
+  font-size:0.8em;
+  font-style:italic;
+}
+
+/* .inputgroup ul, .note ul */
+ul
+{
+  margin-top:1px;
+  padding-top:1px;
+  margin-bottom:1px;
+  padding-bottom:1px;
+}
+
+.brokenlink
+{
+  color:#999999;
+  text-decoration:line-through;
+}
+
+
+
+.rightborder
+{
+  border-right:1px solid #999999;
+}
+
+.center
+{
+  text-align:center;
+}
+
+.subframeheader
+{
+  font-size:20px;
+  line-height:100%;
+  margin:0px;
+}
+
+
+.footer
+{
+  border-top:2px solid #4444FF;
+  text-align:right;
+  font-size:16px;
+  font-style:italic;
+}
+
+.footer a
+{
+  color:#000000;
+  text-decoration:underline;
+}
+.footer a:hover
+{
+  color:#0099DD;
+}
+.footermenu
+{
+  float:left;
+  font-style:normal;
+}
+.footermenu a
+{
+  text-decoration:none;
+}
+.footermenu a:hover
+{
+  color:#0000FF;
+}
+
+.inputgroup
+{
+  background-color:#DDF0FF;
+  border:1px solid #0033FF;
+  padding: 5px;
+  margin:5px 0px 15px 0px;
+}
+
+.inputgroup p
+{
+  margin:2px 0px 2px 0px;
+  padding:2px 0px 2px 0px;
+}
+
+.about
+{
+  background-color:#DDFFF0;
+  border:1px solid #0033FF;
+  padding: 5px;
+  margin:5px 0px 15px 0px;
+}
+
+.about p
+{
+  margin:2px 0px 2px 0px;
+  padding:2px 0px 2px 0px;
+}
+
+.inputnumber
+{
+  float:right;
+  font-weight:bold;
+  color:#0033FF;
+  padding:2px 0px 2px 0px;
+}
+
+.clear
+{
+  clear:both;
+}
+
+.mainmargin
+{
+  margin: 10px;
+}
+
+.sidemargin
+{
+  padding:0px 10px 0px 10px;
+}
+
+.leftmargin
+{
+  padding:0px 0px 0px 10px;
+}
+
+input.copytext
+{
+  padding:2px 10px 2px 10px;
+  font-family:Arial,Helvetica,sans-serif;
+  color:#0033FF;
+  border:0px solid #000000;
+  margin:0px;
+  padding:2px;
+}
+
+table.resultlist
+{
+  border:1px solid #999999;
+}
+
+table.resultlist th, table.resultlist td
+{
+  padding:2px 5px 2px 5px;
+  margin:0px;
+}
+
+table.resultlist th
+{
+  background-color:#CCDDFF;
+  border-bottom:1px solid #999999;
+}
+
+tr.shade1 td
+{
+  background-color:#EEEEFF;
+}
+
+tr.shade2 td
+{
+  background-color:#FFFFEE;
+}
+
+tr.shade1 td.sortedby
+{
+  background-color:#DDDDEE;
+}
+
+tr.shade2 td.sortedby
+{
+  background-color:#EEEEDD;
+}
+
